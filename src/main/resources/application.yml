@@ -1,0 +1,9 @@
+server:
+  port: 7008
+  host: 127.0.0.1
+  netty:
+    boss-count: 2
+    worker-count: 2
+    keep-alive: true
+    backlog: 2
+
